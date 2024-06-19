@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", sans-serif;
+    color: white;
+    cursor: default;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(45deg,#fdfbfb,#ebedee);
+}
+.main-container{
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: linear-gradient(45deg,#e0c3fc,#8ec5fc);
+    box-shadow: -5px -5px 10px 0px #ffffff,5px 5px 10px 0px #a4a4a4;
+    border-radius: 20px;
+
+}
+.title{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+.container{
+    width: 60vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.run_button{
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.buttons{
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: .3s;
+
+}
+.buttons:hover{
+    border: 2px solid orangered;
+    transition: .3s;
+}
+.box-outer{
+    width: 140px;
+    height: 180px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inner-box{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#game_status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: orangered;
+}
+#player_status_act{
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#restart{
+    width: 10vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+}
+#target_scr_act{
+    color: orangered;
+}
+#imp-target{
+    color: orangered;
+}

@@ -1,0 +1,129 @@
+@media screen and (max-width:800px) {
+    html{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body{
+        width: 350px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .main-container{
+        width: 350px;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background: linear-gradient(45deg,#e0c3fc,#8ec5fc);
+        box-shadow: none;
+        border-radius: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+    .title{
+        width: 300px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        top: 2.5vh;
+        position: absolute;
+    }
+    .container{
+        width: 350px;
+        height: fit-content;
+        display: flex;
+        position: relative;
+        background-color: aquamarine;
+        top: -35vh;
+    }
+    .run_button{
+        width: 350px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        position: absolute;
+        bottom: 20vh;
+    }
+    .buttons{
+        width: 50px;
+        height: 30px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        border: 2px solid transparent;
+    
+    }
+    .buttons:hover{
+        border: none;
+    }
+    .box-outer{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .game_status{
+        top: 0vh;
+        width: 300px;
+        height: 80px;
+    }
+    .target_scr{
+        top: 88px;
+        left: 25px;
+        width: 145px;
+    }
+    .target_scr_inn2{
+        top: 88px;
+        right: 25px;
+        width: 145px;
+    }
+    .player_crt_run{
+        top: 196px;
+        left: 25px;
+        width: 145px;
+    }
+    .computer_crt_run{
+        top: 196px;
+        right: 25px;
+        width: 145px;
+    }
+    .player_status{
+        top: 304px;
+        width: 300px;
+        height: 80px;
+    }
+    #restart{
+        width: 150px;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: none;
+        background-color: orangered;
+        color: white;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 10vh;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Circket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobilestyle.css">
+</head>
+<body>
+    <div class="main-container">
+        <p class="title">Hand Circket</p>
+        <div class="container">
+            <p class="box-outer game_status" id="game_status">status</p>
+            <p class="box-outer player_status">player Status<span class="inner-box" id="player_status_act">Player</span></p>
+            <p class="box-outer target_scr">1st Inn Score<span class="inner-box" id="target_scr_act"></span></p>
+            <p class="box-outer target_scr_inn2">2nd Inn Score<span class="inner-box" id="imp-target">0</span></p>
+            <p class="box-outer player_crt_run">player run<span class="inner-box" id="crt_run_act_player"></span></p>
+            <p class="box-outer computer_crt_run">Computer Run<span class="inner-box" id="crt_run_act_computer"></span></p>
+        </div>
+        <div class="run_button">
+            <button data-run="1"  class="buttons" id="but2">1</button>
+            <button data-run="2"  class="buttons" id="but3">2</button>
+            <button data-run="3"  class="buttons" id="but4">3</button>
+            <button data-run="4"  class="buttons" id="but5">4</button>
+            <button data-run="5"  class="buttons" id="but6">5</button>
+            <button data-run="6"  class="buttons" id="but1">6</button>
+        </div>
+        <button id="restart">Restart</button>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
